@@ -1,0 +1,24 @@
+# --- 기본 ---
+streamlit>=1.33
+pandas
+numpy
+python-dateutil
+pydeck
+
+# --- 환경변수 로드 ---
+python-dotenv
+
+# --- 챗봇/LLM ---
+langchain
+langchain-openai
+openai  # langchain-openai 내부에서 사용됨
+
+# --- 캘린더 컴포넌트 ---
+streamlit-calendar
+
+# --- 시각화/텍스트 ---
+wordcloud
+
+# --- 엑셀/CSV IO ---
+openpyxl    # .xlsx
+xlrd        # .xls
